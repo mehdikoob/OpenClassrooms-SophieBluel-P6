@@ -125,6 +125,35 @@ li:hover {
 	text-align: center;
 	margin-bottom: 1em;
 }
+/* Filtres */
+
+.filtres {
+    display: flex;
+    justify-content: space-between;
+    width: 585px;
+    height: 37px;
+    border-radius: 60px;
+	padding-bottom: 20px;
+	margin: auto;
+}
+
+.bulle {
+    padding:5px 5px;
+    border: 1px solid #1D6154; 
+    border-radius: 60px; 
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: #1D6154; 
+	font-family: "syne";
+}
+
+.bulle:hover {
+ background-color: #1D6154;
+ color: #ffffff;
+}
+
 .gallery {
 	width: 100%;
 	display: grid;
